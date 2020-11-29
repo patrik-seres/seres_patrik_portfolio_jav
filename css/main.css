@@ -1,0 +1,349 @@
+body{
+    background-color: #fff6df;
+    font-family: 'Grenze Gotisch', sans-serif;
+}
+
+#gyüjtő{
+    margin: 0 auto;
+    width: 970px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+
+#profil{
+    background: #ffeec3;
+    background-image: url(..//images/header-shadow.png);
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+
+
+.rólam{
+    float: left;
+    margin-top: 30px;
+    width: 500px;
+    margin-left: 20px;
+    
+    
+    
+}
+
+
+.rólam .profilkép{
+    float: left;
+    background: url(..//images/photo-inner.png) no-repeat;
+    width: 214px;
+    height: 214px;
+    padding: 12px 0 0 19px;
+
+    
+}
+
+h1{
+    color: #523213;
+    padding: 1rem;
+}
+
+.rólam h1{
+    font-weight: 900;
+    color: #523213;
+    line-height: 34px;
+    margin-top: 8px;
+    margin-left: -20px;
+    font-family: 'Grenze Gotisch', sans-serif;
+}
+
+
+.rólam h2{
+    font-weight: 900;
+    color: #523213;
+    line-height: 34px;
+    margin-top: 8px;
+    margin-left: -20px;
+    font-family: 'Grenze Gotisch', sans-serif;
+}
+
+.rólam h3{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #795A2D;
+    line-height: 18px;
+    font-family: 'Grenze', sans-serif;
+    font-size: 20px;
+    
+}
+
+
+.rólam p{
+    font-size: 14px;
+    margin-top: 15px;
+    color: #795A2D;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Grenze', sans-serif;
+    font-size: 19px;
+    padding-left: 13.5rem;
+}
+
+
+.adatok{
+    float: left;
+    margin-top: 30px;
+    width: 310px;
+    min-height: 230px;
+    margin-left: 10px;
+    background: url(..//images/personal-info-sep.png) no-repeat left top;
+    padding: 20px 0 19px 20px;
+    font-family: 'Grenze', sans-serif;
+    color: #795A2D;
+}
+
+
+.adatok li{
+    line-height: 20px;
+    font-size: 19px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    float: left;
+    width: 350px; 
+    
+    
+}
+
+
+.adatok li label{
+    color: #523213;
+    float: left;
+    padding: 4px 7px;
+    font-weight: 550;
+    border-radius: 3px;
+    font-family: 'Grenze Gotisch', sans-serif;
+    line-height: 20px;
+    margin-top: -4px;
+    font-size: 20px;
+    
+}
+
+
+
+.adatok li span{
+    float: right;
+    width: 165px;
+}
+
+
+.fejléc{
+    line-height: 2rem;
+    font-size: 1.2rem;
+    display: inline-block;
+    text-align: right;
+    background-color: #795A2D;
+    padding: .75rem 1rem;
+    position: relative;
+    overflow: visible;
+    display: block;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-family: 'Grenze',sans-serif;
+    text-decoration:none;
+}
+
+.lap  li> a{
+    width: 250px;
+    display:inline-block;
+    font-size: 22px;
+    color: #ffeec3;
+    font-family: 'Grenze',sans-serif;
+}
+
+.menü{
+    height: 100px;
+    background-color: #795A2D;
+    position: relative;
+    padding-left: 130px;
+    padding-right: 130px;
+    
+}
+
+.lapok{
+    height: 117px;
+    position: absolute;
+    margin-top: -14px;
+    z-index: 100;
+    
+}
+
+.lapok li > a{
+    padding-top: 28px;
+    width: 250px;
+    display:inline-block;
+    background-repeat: no-repeat;
+    font-size: 22px;
+    color: #ffeec3;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Grenze',sans-serif;
+    line-height: 45px;
+    text-decoration:none;
+    padding-right: 53px;
+
+}
+
+.lapok li > a > i{
+    font-size: 45px;
+    display: block;
+}
+
+#önéletrajz p{
+    font-size: 24px;
+    margin-top: 15px;
+    color: #795A2D;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Grenze', sans-serif;
+}
+
+#portfólió p{
+    font-size: 24px;
+    margin-top: 15px;
+    color: #795A2D;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Grenze', sans-serif;
+}
+
+#grafikaiterv p{
+    font-size: 24px;
+    margin-top: 15px;
+    color: #795A2D;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Grenze', sans-serif;
+}
+.cím{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #795A2D;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Grenze', sans-serif;
+}
+
+.felsorolás{
+    font-size: 24px;
+    margin-top: 15px;
+    color: #795A2D;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Grenze', sans-serif;
+}
+
+.szöveg{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #795A2D;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Grenze', sans-serif;
+}
+
+img{
+    max-width: 100%
+    justify-content: space-around;
+
+}
+.kepek_grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 2rem; 
+        margin-right: 2rem;         
+        margin-bottom: 100px;
+        margin-top: 100px;  
+}
+
+.kepek_grid .kep_kartya{
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        flex-grow: 1;
+}
+    
+.kep_kartya .kep{
+        height: 10rem;
+        background-color: rgba(0,0,0,.03);
+        text-align: center;
+
+}
+.kep_kartya .kep img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+}
+.kep_kartya .kep img:hover{
+        -webkit-box-shadow: 0 2px 12px 0 rgba(0,0,0,3);
+        -moz-box-shadow: 0 2px 12px 0 rgba(0,0,0,3);
+        box-shadow: 0 2px 12px 0 rgba(0,0,0,3);
+}
+.kep_kartya p{
+        font-size: 1rem;
+        padding-top: .4rem;
+        color: #795A2D;
+        text-align: center;
+}
+.copyright{
+    padding: 1rem;
+
+}
+
+.copyright > p img{
+    width: 5%;
+    height: auto;
+}
+
+.grafika_grid{
+        display: inline-block;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+       margin: 2rem;
+}
+
+    
+.grafika_kartya .grafika{
+        height: 100%;
+        background-color: rgba(0,0,0,.03);
+        text-align: center;
+
+}
+.grafika_kartya .grafika img{
+        height: 50%;
+        width: 50%;
+        object-fit: contain;
+}
+.grafika_kartya p{
+        font-size: 2rem;
+        padding-top: .4rem;
+        color: #795A2D;
+        text-align: left;
+}
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
